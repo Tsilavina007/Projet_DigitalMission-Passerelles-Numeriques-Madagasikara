@@ -1,0 +1,4 @@
+#54B5E7 : sky bluelight
+#CA1517 : dark red
+#E4DF00 : yellow
+#20A637 : green
