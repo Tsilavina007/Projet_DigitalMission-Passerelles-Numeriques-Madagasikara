@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+}
+
+body{
+    background-image: url(commande/icon/fond.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+}
+
+
+#frame{
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 3;
+    box-shadow: 0px 1px 5px rgb(3, 3, 4);
+  
+}
+
+#frame h1{
+    font-size: 100%;
+    color: #3c87ff;
+    
+}
+
+.menu {
+    cursor: pointer;
+    display: flex; 
+    justify-content: space-between;
+    
+}
+
+
+.head-app h3{
+    font-family: 'Poppins';
+}
+
+.vitako-io {
+    color: #fff;
+    font-style: italic;
+    font-size: 32px;
+}
+
+.logo-text{
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    background-color: #000000;
+    width: 100%;
+
+}
+.logo-text h2 {
+    color: #f1f1f1;
+    padding-top: 7px;
+    margin-right: 24px;
+}
+
+.logo-text img{
+    width: 50px;
+    height: 50px;
+
+}
+.icon1{
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    height: 128px;
+    width: 128px;
+    z-index: -1;
+}
+.icon2{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    height: 128px;
+    width: 128px;
+    z-index: -1;
+}
+.icon3{
+    position: absolute;
+    top: 10%;
+    left: 63%;
+    height: 128px;
+    width: 128px;
+    z-index: -1;
+}
+.icon4{
+    position: absolute;
+    top: 80%;
+    left: 4%;
+    height: 128px;
+    width: 128px;
+    z-index: -1;
+}
+.icon5{
+    position: absolute;
+    top: 70%;
+    left: 65%;
+    height: 128px;
+    width: 128px;
+    z-index: -1;
+}
+
+
+
+
+.titre{
+    text-align: center;
+    font-size: 80%;
+    margin-top: 32px;
+
+}
+.titre h1 {
+    font-size: 42px;
+}
+
+
+
+
+
+.container-accueil{
+    margin: auto;
+    text-align: center;
+
+}
+
+
+.container-accueil .buttons button{
+    cursor: pointer;
+    font-size: 16px;
+    margin:12px ;
+    padding: 8px 12px;
+    background-color: #4b78c29c;
+    border-radius: 32px;
+    border: none;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.658);
+}
+
+
+.about{
+    text-align: center;
+    margin-top: 32px;
+}

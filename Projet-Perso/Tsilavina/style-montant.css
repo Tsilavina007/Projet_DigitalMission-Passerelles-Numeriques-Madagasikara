@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(commande/icon/fond.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+    
+    
+}
+
+
+.form {
+    text-align: center;
+    margin: 12px 0;
+
+}
+
+
+.form input{
+    height: 35px;
+    width: 90%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 24px;
+    border: 1px solid #999;
+    margin:8px 0;
+    padding: 0 10px 0 10px;
+    }
+.form button{
+    height: 35px;
+    width: 90%;
+    font-size: 16px;
+    border-radius: 24px;
+    border: 1px solid #999;
+    padding: 0 10px 0 10px;
+}
+
+
+
+/* Style optionnel pour la boîte de dialogue */
+dialog {
+    width: 300px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    }
+
+
+#month-select{
+    width: 18%;
+}
+
+
+#frame{
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 3;
+    box-shadow: 0px 1px 5px rgb(3, 3, 4);
+  
+}
+
+#frame h1{
+    font-size: 100%;
+    color: #3c87ff;
+    
+}
+
+.menu {
+    cursor: pointer;
+    display: flex; 
+    justify-content: space-between;
+    
+}
+
+
+.head-app h3{
+    font-family: 'Poppins';
+}
+
+.logo-text{
+
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    background-color: #000000;
+    width: 100%;
+
+}
+.logo-text h2 {
+    margin: 0;
+    padding: 0;
+    color: #f1f1f1;
+    padding-top: 7px;
+    margin-right: 24px;
+}
+
+.logo-text img{
+
+    width: 50px;
+    height: 50px;
+
+}
+
+
+
+.montants-list {
+    padding: 0 16px ;
+}
+.montants-list ul{
+    background-color: #3c87ff85;
+    padding: 16px 8px;
+    border-radius: 8px;
+    border:1px solid #000000;
+
+   
+}
+
+.montants-list ul span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0062ffb9;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 16px;
+    margin-bottom: 8px;
+    padding: 4px 8px;
+    
+}
+
+
+
+.montants-list li{
+    width: 100%;
+    list-style: none;
+    font-size: 12px;
+}
+
+.montants-list p{
+    font-size: 8px;
+}
+
+.montants-list button{
+    height: 24px;
+    font-size: 12px;
+    border-radius: 14px;
+    box-shadow: 1px 1px 5px black;
+    background-color: #f3f3f3a2;
+    border: none;
+}
+
+.montants-list h2{
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.montants-list p{
+    font-size: 14px;
+}
+
+
+.btn {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    height: 54px;
+    width: 54px;
+    border-radius: 50%;
+    background-color: #3c87ff;
+    color: #fff;
+    border: none;
+    box-shadow: 2px 2px 8px black;
+
+}
+
+
+#myDialog {
+    position: fixed;
+    max-height: 80%;
+    overflow: scroll;
+    background-color: #3c87ffe3;
+    box-shadow: 2px 2px 10px black;
+    border-radius: 12px;
+}
+
+#myDialog label {
+    margin-top: 12px;
+    font-size: 12px;
+}
+
+#myDialog input {
+    margin-top: 12px;
+    background-color: #999;
+    border-radius: 4px;
+}
+
+#myDialog button {
+    margin-top: 12px;
+    background-color: #52dcff;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 0 4px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.527);
+}
+#myDialog h2{
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+#myDialog .btn_x {
+    background-color: transparent;
+    position: absolute;
+    top: 4px;
+    right: 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    margin: 0 4px;
+}

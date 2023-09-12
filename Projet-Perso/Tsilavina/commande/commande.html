@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Métadonnées de la page et liens vers les fichiers CSS et bibliothèques externes -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>commande</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+
+<body>
+    <!-- Modal pour afficher des informations supplémentaires -->
+    <div id="modal" class="modal" onclick="fermerModal()">
+        <div id="modal-content" class="modal-content"></div>
+    </div>
+    
+    <!-- Dropdown pour ajouter une nouvelle tâche -->
+    <div class="dropdown1">
+        <div id="myDropdown" class="dropdown-content1">
+            <div class="task-input">
+                <!-- Champs pour entrer une nouvelle tâche -->
+                <input type="text" placeholder="Asa vaovao">
+                <div class="client-input">
+                    <!-- Champs pour entrer les informations du client -->
+                    <input type="text" placeholder="Tompony">
+                    <input type="text" placeholder="Fifandraisana" class="client-contact-input">
+                    <input type="text" placeholder="Vidiny (Ar)" class="vidiny-input">
+                    <input type="text" placeholder="Avance (Ar)" class="avance-input">
+                    <textarea type="text" placeholder="+++" class="client-plus" rows="5" cols="30"></textarea>
+                </div>
+                <div style="display: flex;">
+                    <!-- Champs pour sélectionner la date et l'heure de la tâche -->
+                    <input type="datetime-local" class="task-datetime">
+                    <!-- Bouton pour ajouter la tâche -->
+                    <button id="add-task-btn">Ampiditra</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- En-tête de la page avec le bouton d'accueil -->
+    <div id="frame">
+        <div class="menu">
+            <div class="logo-text" id="accueil-btn">
+                <!-- Icône et texte du bouton d'accueil -->
+                <img src="icon/check-mark.png" alt="icon">
+                <div><h2>Vitako io</h2></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Conteneur pour la liste des tâches -->
+    <div class="wrapper">
+        <div>
+            <ul class="task-box"></ul>
+        </div>
+    </div>
+
+    <!-- Barre de contrôle avec les filtres et le bouton pour ajouter une nouvelle tâche -->
+    <div class="controls">
+        <div class="filters">
+            <!-- Bouton pour ouvrir la barre latérale -->
+            <button class="w3-button" onclick="w3_open()"><img src="icon/menu.png" alt="menu"></button>
+            <!-- Filtrer par "Toutes les tâches" -->
+            <div><span id="all" class="active"><img src="icon/select.png" alt=""><span class="filter-count"></span></span></div>
+            <!-- Bouton pour ajouter une nouvelle tâche -->
+            <div><button id="myBtn" class="dropbtn1">+</button></div>
+            <!-- Filtrer par "Tâches en attente" -->
+            <div><span id="pending"><img src="icon/file.png" alt=""><span class="filter-count"></span></span></div>
+            <!-- Filtrer par "Tâches terminées" -->
+            <div><span id="completed"><img src="icon/check.png" alt=""><span class="filter-count"></span></span> </div>
+        </div>
+    </div>
+
+    <!-- Barre latérale pour filtrer par jour -->
+    <div class="w3-sidebar" style="display:none" id="mySidebar">
+        <button onclick="w3_close()" class="w3-bar">✖</button><br>
+        <!-- Sélecteur pour filtrer les tâches par jour -->
+        <div class="filter-by-day">
+            <label for="select-day"><img src="icon/menu-alt-right-regular-24.png" alt=""></label>
+            <select id="select-day">
+                <!-- Options pour filtrer par jour -->
+                <option value="all">Rehetra</option>
+                <option value="today">Androany</option>
+                <option value="tomorrow">Rapitso</option>
+                <option value="next7days">Herinandro</option>
+            </select>
+        </div>
+        <ul>
+            <!-- Bouton pour effacer toutes les tâches -->
+            <a href="#" class="w3-bar-item"></a><li><button class="clear-btn"><span>All</span><img src="icon/trash-regular-24.png" alt="trash"></button><br></li> </a>
+        </ul>
+        <!-- Informations supplémentaires de l'application -->
+        <p>
+            ㋡Vitako io 2.3<br>
+            Namboarin'i <br>
+            Tsilavina ANDRIAMIHARISON
+        </p>
+    </div>
+    
+    <!-- Script JavaScript pour la logique de l'application -->
+    <script src="script.js"></script>
+</body>
+</html>

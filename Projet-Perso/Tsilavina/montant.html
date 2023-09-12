@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion des montants</title>
+    <link rel="stylesheet" href="style-montant.css">
+    <style>
+
+      </style>
+</head>
+<body>
+
+    <div id="frame">
+        <!-- Page Content -->
+        <div class="menu" id="accueil-btn">
+            <div class="logo-text" id="accueil-btn">
+                <img src="commande/icon/check-mark.png" alt="icon">
+                <div><h2>Vitako io  </h2></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="form">
+            <input type="number" id="montant-input" placeholder="Vola azo (Ar)"><br>
+            <input type="text" id="description-input" placeholder="mombamomba"><br>
+            <button id="ajouter-btn">Ampidirina</button>
+        </div>
+        <div class="montants-list">
+            <hr><h2>Ireo vola nampidirina androany</h2>
+            <ul id="montants-today"></ul>
+
+            <hr><h2>Ny androany :</h2>
+            <p id="bilan-aujourd'hui"></p>
+
+            <hr><h2>Nandritry ny herinandro</h2>
+            <p id="bilan-semaine"></p>
+            <hr><h2>Nandritry ny ity volana ity</h2>
+            <p id="bilan-mois"></p>
+        </div>
+    </div>
+
+    
+    
+
+    <!-- La boîte de dialogue -->   
+    <dialog id="myDialog">
+                    <!-- HTML : Ajouter un formulaire pour sélectionner le mois et l'année -->
+                    <form id="select-month-form">
+                        <label for="month-select">volana:</label>
+                        <select id="month-select">
+                            <option value="1">Janvier</option>
+                            <option value="2">Février</option>
+                            <option value="3">Mars</option>
+                            <option value="4">Avril</option>
+                            <option value="5">Mai</option>
+                            <option value="6">Juin</option>
+                            <option value="7">Juillet</option>
+                            <option value="8">Aout</option>
+                            <option value="9">Septembre</option>
+                            <option value="10">Octobre</option>
+                            <option value="11">Novembre</option>
+                            <option value="12">Décembre</option>
+                        </select>
+            
+                        <label for="year-select">ny :</label>
+                        <select id="year-select">
+                            <option value="2023">2023</option>
+                            <option value="2024">2024</option>
+                        </select>
+            
+                        <button type="submit">Hijery</button>
+                    </form>
+                <div id="modal-content1"></div>
+                <hr>
+
+        <!-- Input pour sélectionner une date -->
+        <span>
+            <label>tamin'ny :</label><input type="date" id="date-input">
+            <!-- Bouton pour ouvrir la modal -->
+            <button id="ouvrir-modal-btn">Hijery</button>
+        </span>
+
+        <!-- Modal -->
+        <div id="modal" class="modal" style="display: none;">
+            <div class="modal-content">
+                <h2>Vola nampidirina tamin'io andro io :</h2>
+                <div id="modal-content"></div>
+            </div>
+        </div>
+        <button onclick="closeDialog()" class="btn_x">X</button>
+    </dialog>
+    <!-- Bouton pour ouvrir la boîte de dialogue -->
+    <button onclick="openDialog()" class="btn">Hijery</button>
+
+
+
+
+
+
+
+    <script src="script_montant.js"></script>
+
+</body>
+</html>
