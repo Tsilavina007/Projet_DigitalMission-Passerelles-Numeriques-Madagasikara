@@ -1,5 +1,3 @@
-A propos de ces Projet
-
 # Projet Digital Mission - Passerelles Numeriques Madagasikara
 
 Ce référentiel GitHub contient les projets réalisés par les étudiants du cours Digital Mission à Passerelles Numeriques Madagasikara. Le cours est composé de 5 groupes, chacun composé de 5 personnes, et chaque groupe travaille sur quatre projets identiques. De plus, chaque étudiant a son propre projet individuel, ce qui donne un total de 25 projets différents.
@@ -36,10 +34,4 @@ Chaque projet de groupe et chaque projet individuel doit avoir son propre fichie
 ## Nous vous souhaitons à tous une expérience d'apprentissage enrichissante et productive pendant le cours Digital Mission à Passerelles Numeriques Madagasikara !
 
 
-
-## Requirements installation
-
-```
-pip install -r requirements.txt
-```
 
