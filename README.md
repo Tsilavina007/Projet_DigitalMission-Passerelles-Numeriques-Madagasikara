@@ -32,12 +32,8 @@ Ce référentiel est organisé de manière à ce que chaque projet ait son propr
 
 Chaque projet de groupe et chaque projet individuel doit avoir son propre fichier README.md dans son dossier respectif. Ce fichier README doit contenir des instructions sur la manière de configurer l'environnement de développement, de compiler ou d'exécuter le projet, et toute autre information pertinente.
 
-## Contribution
 
-Les membres du groupe sont encouragés à collaborer sur les projets de groupe, mais chaque étudiant est responsable de son propre projet individuel. Pour contribuer à un projet de groupe, veuillez suivre les meilleures pratiques de collaboration, telles que l'utilisation de branches, la création de demandes de fusion et la révision par les pairs.
-
-
-Nous vous souhaitons à tous une expérience d'apprentissage enrichissante et productive pendant le cours Digital Mission à Passerelles Numeriques Madagasikara !
+## Nous vous souhaitons à tous une expérience d'apprentissage enrichissante et productive pendant le cours Digital Mission à Passerelles Numeriques Madagasikara !
 
 
 
