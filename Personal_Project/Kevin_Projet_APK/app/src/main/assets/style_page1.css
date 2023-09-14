@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: violet;
+    padding: 10px;
+  }
+
+  .logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  .button {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+
+
+  /*fin du navbar css*/
+
+  .fond {
+    padding: 20px;
+    border: 1px solid #333333;
+    background-image: url("image/info.jpg");
+    background-size: cover;
+
+  }
+  .fond h1{
+    color: #242222;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+
+  .filiere-btn {
+    display: block;
+    width: 275px;
+    height: 50px;
+    background: linear-gradient(to bottom right, #00FF00, #7CFC00);
+    color: #ffffff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%) perspective(1px) translateZ(0);
+    transition-duration: 0.3s;
+  }
+
+  .filiere-btn:hover,
+  .filiere-btn:focus,
+  .filiere-btn:active {
+    transform: translateX(-50%) perspective(1px) translateZ(0) scale(1.1);
+  }
+
+ /*autre boutton : Droits*/
+
+
+
+
+  .filiere-droit {
+    display: block;
+    width: 275px;
+    height: 50px;
+    background: linear-gradient(to bottom right, #00FF00, #7CFC00);
+    color: #ffffff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    position: fixed;
+    bottom: 75px;
+    left: 50%;
+    transform: translateX(-50%) perspective(1px) translateZ(0);
+    transition-duration: 0.3s;
+  }
+
+  .filiere-droit:hover,
+  .filiere-droit:focus,
+  .filiere-droit:active {
+    transform: translateX(-50%) perspective(1px) translateZ(0) scale(1.1);
+  }
+
+
+  /*boutton gestion*/
+
+
+
+  .filiere-gestion {
+    display: block;
+    width: 275px;
+    height: 50px;
+    background: linear-gradient(to bottom right, #00FF00, #7CFC00);
+    color: #ffffff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    position: fixed;
+    bottom: 130px;
+    left: 50%;
+    transform: translateX(-50%) perspective(1px) translateZ(0);
+    transition-duration: 0.3s;
+  }
+
+  .filiere-gestion:hover,
+  .filiere-gestion:focus,
+  .filiere-gestion:active {
+    transform: translateX(-50%) perspective(1px) translateZ(0) scale(1.1);
+  }
+
+
+    /*boutton medecine*/
+
+
+
+    .filiere-medecine {
+        display: block;
+        width: 275px;
+        height: 50px;
+        background: linear-gradient(to bottom right, #00FF00, #7CFC00);
+        color: #ffffff;
+        font-size: 18px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: center;
+        line-height: 50px;
+        text-decoration: none;
+        position: fixed;
+        bottom: 185px;
+        left: 50%;
+        transform: translateX(-50%) perspective(1px) translateZ(0);
+        transition-duration: 0.3s;
+      }
+
+      .filiere-medecine:hover,
+      .filiere-medecine:focus,
+      .filiere-medecine:active {
+        transform: translateX(-50%) perspective(1px) translateZ(0) scale(1.1);
+      }
+
+
+        /*boutton informatique*/
+
+
+
+    .filiere-info {
+        display: block;
+        width: 275px;
+        height: 50px;
+        background: linear-gradient(to bottom right, #00FF00, #7CFC00);
+        color: #ffffff;
+        font-size: 18px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: center;
+        line-height: 50px;
+        text-decoration: none;
+        position: fixed;
+        bottom: 295px;
+        left: 50%;
+        transform: translateX(-50%) perspective(1px) translateZ(0);
+        transition-duration: 0.3s;
+      }
+
+      .filiere-info:hover,
+      .filiere-info:focus,
+      .filiere-info:active {
+        transform: translateX(-50%) perspective(1px) translateZ(0) scale(1.1);
+      }
+
+        /*boutton informatique*/
+
+
+
+    .filiere-com {
+        display: block;
+        width: 275px;
+        height: 50px;
+        background: linear-gradient(to bottom right, #00FF00, #7CFC00);
+        color: #ffffff;
+        font-size: 18px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: center;
+        line-height: 50px;
+        text-decoration: none;
+        position: fixed;
+        bottom: 240px;
+        left: 50%;
+        transform: translateX(-50%) perspective(1px) translateZ(0);
+        transition-duration: 0.3s;
+      }
+
+      .filiere-com:hover,
+      .filiere-com:focus,
+      .filiere-com:active {
+        transform: translateX(-50%) perspective(1px) translateZ(0) scale(1.1);
+      }
+
+
+
+
