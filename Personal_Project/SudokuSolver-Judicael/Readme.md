@@ -10,8 +10,5 @@ It's a function calling himself
 ![Capture](https://github.com/Tsilavina007/Projet_DigitalMission-Passerelles-Numeriques-Madagasikara/assets/135115381/7e79b0e1-3f5d-40d7-812b-bd06593304ff)
 #### a function that calculates the fibonacci sequence
 
-## How recursivity looks like
-
-
 ## Backtracking 
 ![backtrack4](https://github.com/Tsilavina007/Projet_DigitalMission-Passerelles-Numeriques-Madagasikara/assets/135115381/f0a9e1cc-a335-4977-a305-4f38cb7049d1)
