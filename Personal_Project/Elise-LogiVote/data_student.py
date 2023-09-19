@@ -1,0 +1,2 @@
+homme=["Angelico","Didier","Elisé","Freddy","Jonathan","Judicaël","Kevin","Odauphin","Pierrot","Rado","Toky","Tsilavina","Tsiory"]
+fille=["Adelaïde","Anjary","Dihariniaina","Edwine","Elivette","Fenitra","Fidelicia","Julia","Miantsa","Nekena","Pascaline","Zoeline"]

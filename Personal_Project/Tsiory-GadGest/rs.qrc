@@ -1,0 +1,10 @@
+<RCC>
+  <qresource>
+    <file>images/logo-fr.png</file>
+    <file>images/icon.png</file>
+    <file>images/fond.png</file>
+  </qresource>
+  <qresource>
+    <file>images/My logo.png</file>
+  </qresource>
+</RCC>
