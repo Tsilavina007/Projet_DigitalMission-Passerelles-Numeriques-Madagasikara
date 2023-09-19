@@ -26,11 +26,6 @@ Ce référentiel est organisé de manière à ce que chaque projet ait son propr
 
 
 
-## Instructions d'Utilisation
-
-Chaque projet de groupe et chaque projet individuel doit avoir son propre fichier README.md dans son dossier respectif. Ce fichier README doit contenir des instructions sur la manière de configurer l'environnement de développement, de compiler ou d'exécuter le projet, et toute autre information pertinente.
-
-
 ## Nous vous souhaitons à tous une expérience d'apprentissage enrichissante et productive pendant le cours Digital Mission à Passerelles Numeriques Madagasikara !
 
 
