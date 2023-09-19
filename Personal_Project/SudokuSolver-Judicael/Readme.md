@@ -5,10 +5,13 @@ This is a solution algorithm for the sudoku game. It uses recursive backtracking
 
 ## A recursive function
 
-It's a function calling himself
+It's a function calling himself inside of himself
+![recursivity](https://github.com/Tsilavina007/Projet_DigitalMission-Passerelles-Numeriques-Madagasikara/assets/135115381/00adbbee-d797-4d7c-bb86-6e74d85ad15c)
+
 
 ![Capture](https://github.com/Tsilavina007/Projet_DigitalMission-Passerelles-Numeriques-Madagasikara/assets/135115381/7e79b0e1-3f5d-40d7-812b-bd06593304ff)
 #### a function that calculates the fibonacci sequence
 
 ## Backtracking 
 ![backtrack4](https://github.com/Tsilavina007/Projet_DigitalMission-Passerelles-Numeriques-Madagasikara/assets/135115381/f0a9e1cc-a335-4977-a305-4f38cb7049d1)
+
